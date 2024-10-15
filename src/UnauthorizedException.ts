@@ -3,7 +3,7 @@ class UnauthorizedException extends Error {
   public code: string;
   constructor(
     message: string = "Unauthorized",
-    code: string = "UNAUTHORIZED_ERROR"
+    code: string = "UNAUTHORIZED"
   ) {
     super(message);
     this.name = "UnauthorizedException";
