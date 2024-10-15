@@ -58,6 +58,18 @@ import { NotFoundException } from 'exceptions-lib';
 throw new NotFoundException('User not found.');
 ```
 
+### `UnauthorizedException`
+
+Lanzado cuando se intenta acceder a un recurso sin la autorización adecuada. Incluye un `statusCode` de 401 y por defecto `code` de `"UNAUTHORIZED"`.
+
+#### Example:
+
+```typescript
+import { UnauthorizedException } from 'exceptions-lib';
+
+throw new UnauthorizedException('Access denied.');
+```
+
 ## Usage
 
 1. Importe la clase de excepción requerida desde la biblioteca.
