@@ -7,12 +7,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc",
+    "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "husky": "^9.1.6",
     "typescript": "^5.6.3"
   }
 }
