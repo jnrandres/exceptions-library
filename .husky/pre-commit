@@ -1,1 +1,4 @@
 npm run build
+git add dist
+git commit -m "Automated build: commit built files"
+git push
